@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function changeColor(){
+            var element=document.getElementsByClassName("cls");
+            for(var x=0;x<element.length;x++){
+                element[x].style.color="red";
+
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <p  id="p1" class="cls"> hello everyone </p>
+    <p id="p1" > hello everyone </p>
+    <p  id="p1" class="cls"> hello everyone </p>
+    <p id="p1" > hello everyone </p>
+    <p id="p1" class="cls"> hello everyone </p>
+    <a href="#" class="cls">this is a para</a>
+    <br>
+    <button onclick="changeColor()">click me</button>
+</body>
+</html>
